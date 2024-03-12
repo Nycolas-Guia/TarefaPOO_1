@@ -52,6 +52,7 @@ public class GreetingServlet extends HttpServlet {
             }else if(hora>=23 && hora<5){
                 out.println("VAI DORMIR!"); 
             }
+           out.println("<a href=\"random.html\">RandomServlet</a>");
             out.println("</body>");
             out.println("</html>");
         }

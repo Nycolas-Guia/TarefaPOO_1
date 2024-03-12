@@ -41,6 +41,7 @@ public class MeServlet extends HttpServlet {
             out.println("<h1>1290482222007</h1>");
             out.println("<h2>Nycolas da Guia Santos</h2>");
             out.println("<h2>20 anos</h2>");
+            out.println("<a href=\"greeting.html\">GreetingServlet</a>");            
             out.println("</body>");
             out.println("</html>");
         }

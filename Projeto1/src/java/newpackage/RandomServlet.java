@@ -41,6 +41,7 @@ public class RandomServlet extends HttpServlet {
                 out.println(vet[j]);
             
             }
+            out.println("<a href=\"me.html\">RandomServlet</a>");
             out.println("</body>");
             out.println("</html>");
         }
